@@ -1,0 +1,61 @@
+# Dependencies
+/node_modules
+/myFirstApp/node_modules
+/myFirstApp/vendor
+
+# Environment files
+.env
+.env.*
+!.env.example
+myFirstApp/.env
+myFirstApp/.env.*
+!myFirstApp/.env.example
+
+# Laravel build & cache
+/myFirstApp/public/build
+/myFirstApp/public/hot
+/myFirstApp/public/storage
+/myFirstApp/bootstrap/ssr
+/myFirstApp/.phpunit.cache
+/myFirstApp/.phpunit.result.cache
+/myFirstApp/.phpactor.json
+
+# Storage keys & pail
+/myFirstApp/storage/*.key
+/myFirstApp/storage/pail
+
+# Generated Wayfinder & Inertia files
+/myFirstApp/resources/js/actions
+/myFirstApp/resources/js/routes
+/myFirstApp/resources/js/wayfinder
+
+# Logs & debuggers
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*:Zone.Identifier
+
+# IDEs and Editors
+.vscode/
+.idea/
+.claude/
+.agents/
+.codex/
+.pi/
+.fleet/
+.nova/
+.zed/
+Homestead.json
+Homestead.yaml
+auth.json
